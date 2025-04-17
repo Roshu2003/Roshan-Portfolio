@@ -18,5 +18,5 @@ export const personalData = {
   codechef: "https://www.codechef.com/users/roshan_1229",
   devUsername: "Roshan",
   resume:
-    "https://drive.google.com/file/d/1uzHkB_l2iEnYDLPMq6Jty-9KD9q0AcwW/view",
+    "https://drive.google.com/file/d/1E0KrrDr8kJxQwBQkyGS-aA3LNR3lFXZa/view",
 };
