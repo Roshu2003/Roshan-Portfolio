@@ -45,17 +45,6 @@ export const projectsData = [
     demo: "",
     image: ayla,
   },
-  {
-    id: 4,
-    name: "PYC Coding Club Platform (Mentorship & Events)",
-    description:
-      "As the Lead of the PYC Coding Club, mentored 150+ members and organized sessions on competitive programming and DSA using C/C++. Designed and maintained interactive portals for problem-solving, coding events, and learning resources.",
-    tools: ["C++", "DSA", "Git", "GitHub", "HTML", "CSS", "JS"],
-    role: "Mentor & Platform Developer",
-    code: "",
-    demo: "",
-    image: realEstate,
-  },
 ];
 
 // Do not remove any property.
