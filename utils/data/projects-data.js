@@ -1,52 +1,62 @@
-import ayla from '/public/image/ayla.jpg';
-import crefin from '/public/image/crefin.jpg';
-import realEstate from '/public/image/real-estate.jpg';
-import travel from '/public/image/travel.jpg';
+import ayla from "/public/image/ayla.jpg";
+import crefin from "/public/image/crefin.jpg";
+import realEstate from "/public/image/real-estate.jpg";
+import travel from "/public/image/travel.jpg";
 
 export const projectsData = [
-    {
-        id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
-        demo: '',
-        image: crefin,
-    },
-    {
-        id: 2,
-        name: 'CGC Admin App & CGC College App',
-        description: 'I have designed and developed two Android applications, CGC Admin App and CGC College App, aimed at enhancing administrative and academic functionalities within the college ecosystem. I created the UI using Android Studio, Java, XML, and Material UI. The apps include features such as notice sections, faculty management, ebook repositories, video lecture repositories, and payment gateways. I utilized Firebase for Storage Buckets, Realtime Database, and the Login System',
-        tools: ['Java', 'Xml', "Google Maps", "Material UI", "Firebase", "Card View", "Gmail Passkey"],
-        role: 'Android  Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
-   
-    {
-        id: 3,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
-        demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    },
-    {
-        id: 4,
-        name: 'CGC Ebooks',
-        description: 'CGC Ebooks App is a tailored ebook application designed to meet the academic demands of college students. It boasts a robust library of ebooks alongside a collection of previous year and MST (Most Significant Topics) questions. Developed using Java, XML, and integrated with Firebase, the app is currently available on Play, offering students a convenient and comprehensive resource for their studies.',
-        tools: ['Java', 'Xml', "Google Maps", "Material UI", "Firebase", "Card View"],
-        code: '',
-        role: 'Android  Developer',
-        demo: '',
-        image: realEstate,
-    }
+  {
+    id: 1,
+    name: "Contractify",
+    description:
+      "Developed Contractify, a contract management platform that efficiently handles 1000+ contracts using Next.js, Node.js, and MongoDB. Implemented cookie-based authentication to secure user sessions and prevent unauthorized access. Integrated real-time notifications, which improved user engagement and reduced contract response time by 40%.",
+    tools: [
+      "Next.js",
+      "Node.js",
+      "MongoDB",
+      "Socket.io",
+      "RestAPI",
+      "Tailwind",
+      "Express",
+    ],
+    role: "Full Stack Developer",
+    code: "https://github.com/BuildingProjects/Contractify",
+    demo: "https://contractify-frontend.onrender.com/",
+    image: crefin,
+  },
+  {
+    id: 2,
+    name: "IIITBH Notes App",
+    description:
+      "Created a resource-sharing platform for IIIT Bhagalpur students using ReactJS, Node.js, Express, and Firebase. The app organizes 200+ resources, helping 300+ students across batches. Reduced resource search time by 80% through efficient categorization and design.",
+    tools: ["ReactJS", "Node.js", "Firebase", "Express", "CSS"],
+    role: "Full Stack Developer",
+    code: "https://github.com/BuildingProjects/iiitbh-notes",
+    demo: "https://iiitbhnotes.netlify.app/",
+    image: travel,
+  },
+  {
+    id: 3,
+    name: "Talk-A-Tive",
+    description:
+      "Built a real-time chat application supporting over 500 concurrent users using Node.js, MongoDB, and Socket.io. Developed interactive frontend features like live chat, streamlined UI, and efficient message rendering. Backend designed for scalability and efficient real-time communication.",
+    tools: ["ReactJS", "Node.js", "MongoDB", "Socket.io", "CSS"],
+    role: "Full Stack Developer",
+    code: "https://github.com/Roshu2003/Talk-A-Tive",
+    demo: "",
+    image: ayla,
+  },
+  {
+    id: 4,
+    name: "PYC Coding Club Platform (Mentorship & Events)",
+    description:
+      "As the Lead of the PYC Coding Club, mentored 150+ members and organized sessions on competitive programming and DSA using C/C++. Designed and maintained interactive portals for problem-solving, coding events, and learning resources.",
+    tools: ["C++", "DSA", "Git", "GitHub", "HTML", "CSS", "JS"],
+    role: "Mentor & Platform Developer",
+    code: "",
+    demo: "",
+    image: realEstate,
+  },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below
